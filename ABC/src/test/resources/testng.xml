@@ -11,7 +11,7 @@
 				
 				<include name="Ctest"/>
 				<include name="fftest1"/>
-				
+				<include name="fftest2"/>
 			
 			
 			

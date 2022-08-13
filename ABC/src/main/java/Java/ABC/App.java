@@ -69,12 +69,6 @@ public class App {
 		driver.quit();
 	}
 		
-	
-		
-	
-	
-	
-	
 		@Test
 		public void fftest1() throws IOException {
 
@@ -89,6 +83,26 @@ public class App {
 	        FileUtils.copyFile(screenshot, new File("E:\\ss\\2.png"));
 
 			System.out.println("Hi --- Makkale");
+			
+			driver.quit();
+			
+
+	}
+		
+		@Test
+		public void fftest2() throws IOException {
+
+			WebDriverManager.firefoxdriver().setup();
+
+			WebDriver driver = new FirefoxDriver();
+
+			driver.get("https://www.facebook.com/");
+			
+			File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+	        
+	        FileUtils.copyFile(screenshot, new File("E:\\ss\\2.png"));
+
+			System.out.println("Hi --- Makkale2");
 			
 			driver.quit();
 			
