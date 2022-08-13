@@ -4,16 +4,16 @@
 	<test name="Test" parallel="methods" thread-count ="6">
 		<classes>
 		
-		<!--class name="Java.ABC.App" >
+		<class name="Java.ABC.App" >
 
 			<methods>
 
 				
 				<include name="Ctest"/>
-				<include name="fftest1/">
+				<include name="fftest1"/>
 
 			</methods>
-			</class-->	
+			</class>	
 				
 		
 			<class name="Java.ABC.AppTest" >
