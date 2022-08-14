@@ -108,4 +108,24 @@ public class App {
 			
 
 	}
+		
+		@Test
+		public void fftest3() throws IOException {
+
+			WebDriverManager.firefoxdriver().setup();
+
+			WebDriver driver = new FirefoxDriver();
+
+			driver.get("https://www.facebook.com/");
+			
+			File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+	        
+	        FileUtils.copyFile(screenshot, new File("E:\\ss\\2.png"));
+
+			System.out.println("Hi --- Makkale3");
+			
+			driver.quit();
+			
+
+	}
 }

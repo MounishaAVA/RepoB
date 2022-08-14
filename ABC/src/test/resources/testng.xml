@@ -12,7 +12,7 @@
 				<include name="Ctest"/>
 				<include name="fftest1"/>
 				<include name="fftest2"/>
-			
+				<include name="fftest3"/>
 			
 			
 			</methods>
