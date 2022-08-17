@@ -20,6 +20,7 @@
 
 				<include name="Test1" />
 				<include name="Test2" />
+				<include name="Test3" />
 
 			</methods>
 			
