@@ -10,11 +10,6 @@
 
 				
 				<include name="Ctest"/>
-				<include name="fftest1"/>
-				<include name="fftest2"/>
-				<include name="fftest3"/>
-				<include name="fftest4"/>
-			
 			</methods>
 			</class>	
 				
@@ -24,7 +19,7 @@
 			<methods>
 
 				<include name="Test1" />
-				<!--include name="Test2" -->
+				<include name="Test2" />
 
 			</methods>
 			

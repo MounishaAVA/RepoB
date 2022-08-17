@@ -1,27 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-14T00:46:05 IST" name="Suite" finished-at="2022-08-14T00:46:10 IST" duration-ms="5683">
+  <suite started-at="2022-08-17T08:03:57 IST" name="Default suite" finished-at="2022-08-17T08:04:10 IST" duration-ms="12934">
     <groups>
     </groups>
-    <test started-at="2022-08-14T00:46:05 IST" name="Test" finished-at="2022-08-14T00:46:10 IST" duration-ms="5683">
-      <class name="Java.ABC.App">
-        <test-method signature="fftest1()[pri:0, instance:Java.ABC.App@5ace1ed4]" started-at="2022-08-14T00:46:05 IST" name="fftest1" finished-at="2022-08-14T00:46:10 IST" duration-ms="5656" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fftest1 -->
-        <test-method signature="Ctest()[pri:0, instance:Java.ABC.App@5ace1ed4]" started-at="2022-08-14T00:46:05 IST" name="Ctest" finished-at="2022-08-14T00:46:09 IST" duration-ms="4191" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Ctest -->
-      </class> <!-- Java.ABC.App -->
+    <test started-at="2022-08-17T08:03:57 IST" name="Default test" finished-at="2022-08-17T08:04:10 IST" duration-ms="12934">
       <class name="Java.ABC.AppTest">
-        <test-method signature="Test1()[pri:0, instance:Java.ABC.AppTest@1613674b]" started-at="2022-08-14T00:46:05 IST" name="Test1" finished-at="2022-08-14T00:46:05 IST" duration-ms="11" status="PASS">
+        <test-method signature="Test2()[pri:0, instance:Java.ABC.AppTest@cad498c]" started-at="2022-08-17T08:03:57 IST" name="Test2" finished-at="2022-08-17T08:04:10 IST" duration-ms="12897" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test1 -->
+        </test-method> <!-- Test2 -->
       </class> <!-- Java.ABC.AppTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
