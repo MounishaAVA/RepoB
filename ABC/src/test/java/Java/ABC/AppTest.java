@@ -33,6 +33,14 @@ public class AppTest
 		System.out.println("Hi");
 	}
 	
+
+	@Test
+	public void Test4() throws Exception{ 
+		
+		System.out.println("Hi");
+	}
+	
+	
 	@Test
 	public void Test2() throws Exception{ 
 		
